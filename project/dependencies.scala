@@ -3,14 +3,13 @@ import sbt._
 object Dependencies {
 
   // Versions
-  lazy val scalaVersion = "2.13.0"
   lazy val doobieVersion = "0.7.0"
   lazy val sparkVersion = "2.4.3"
   lazy val framelessVersion = "0.8.0"
   lazy val kindProjectorVersion = "0.10.3"
   lazy val postgresqlVersion = "42.2.6"
   lazy val betterMonadicForVersion = "0.3.0"
-  lazy val dockerBaseImage = "openjdk:8-alpine"
+
   lazy val kantanCsvVersion = "0.5.1"
   lazy val http4sVersion = "0.20.6"
   lazy val circeVersion = "0.11.1"
@@ -18,7 +17,7 @@ object Dependencies {
   lazy val logbackVersion = "1.2.3"
 
   lazy val catsCoreVersion = "1.6.1"
-  lazy val catsEffectVersion = "1.6.1"
+  lazy val catsEffectVersion = "1.3.1"
 
   lazy val jpmmlEvaluatorVersion = "1.4.11"
   lazy val jpmmlXGBoostVersion = "1.3.11"
